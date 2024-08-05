@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 60px;
+    margin-top: 50px;
+    height: 100vh;
+}
+
+#home {
+    background-color: lightblue;
+}
+
+#about {
+    background-color: lightgreen;
+}
+
+#services {
+    background-color: lightcoral;
+}
+
+#contact {
+    background-color: lightgoldenrodyellow;
+}
